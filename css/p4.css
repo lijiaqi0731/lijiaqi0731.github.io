@@ -1,0 +1,335 @@
+.banner
+{
+background-image: url("img/bk45.png");
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+width: 100%;
+padding-bottom: 1vh;
+-webkit-box-pack: center;
+-webkit-justify-content: center;
+-ms-flex-pack: center;
+justify-content: center;
+-webkit-box-align: end;
+-webkit-align-items: flex-end;
+-ms-flex-align: end;
+align-items: center;
+border-style: none;
+border-width: 1px;
+border-color:#31385c;
+color:white;
+background-size: cover;
+}
+
+
+.maincontent1
+{
+	width: 80%;
+	margin: auto;
+	padding: 50px 5vw; 
+	max-width: 1000px;
+}
+
+.maincontent2
+{
+	width: 100%;
+	overflow: hidden;
+	background-color: #f0efe0;
+}
+
+.maincontent21
+{
+	width: 80%;
+	margin: auto;
+	padding: 50px 5vw; 
+	max-width: 1000px;
+	color: black;
+}
+
+.prop
+{
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center;
+    max-width: 220px;
+    margin: auto;
+    padding: 0 20px;
+        width: 26%;
+        margin-bottom: 30px;
+}
+
+.prop img
+{
+	width: 80%;
+	display: block;
+
+}
+
+.prop p
+{
+	margin: 0px;
+	    font-size: 12px;
+}
+
+
+
+
+.maincontent3
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+.maincontent31
+{
+	width: 80%;
+	margin: auto;
+	padding: 50px 5vw; 
+	max-width: 1000px;
+	color: black;
+}
+
+
+
+
+.maincontent4
+{
+	width: 100%;
+	overflow: hidden;
+	background-color: #EAEAEA;
+
+}
+
+.maincontent41
+{
+	width: 80%;
+	margin: auto;
+	padding: 50px 5vw; 
+	max-width: 1000px;
+	color: black;
+}
+
+
+.col2
+{
+	width: 100%;
+}
+
+.col21
+{
+	margin-bottom: 50px;
+}
+.font1
+{
+	background-image: url("img/font1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	max-width: 300px;
+	margin: auto;
+	height: 550px;
+}
+
+.font2
+{
+	background-image: url("img/font2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	max-width: 300px;
+	margin: auto;
+	height: 550px;
+}
+
+.colx1
+
+{
+	margin: auto;
+margin-bottom: 10px;
+max-width: 400px;
+}
+
+.logo2 img
+{
+	width: 250px;
+}
+
+
+.colx2
+{   
+	margin: auto;
+}
+
+.colx1 img
+
+{
+	margin: auto;
+margin-bottom: 10px;
+
+}
+
+.colx2 img
+{   
+	width: 90%;
+	margin: auto;
+	display: block;
+}
+
+.colx2 p
+{   
+	margin: 0;
+}
+
+
+
+.maincontent5
+{
+	width: 100%;
+	overflow: hidden;
+	background-color: white;
+
+}
+
+.maincontent51
+{
+	width: 80%;
+	margin: auto;
+	padding: 50px 5vw; 
+	max-width: 1000px;
+	color: black;
+}
+
+.colx3{
+
+		margin: auto;
+width: 250px;
+margin-bottom: 10px;
+}
+
+.colx3 img{
+
+		margin: auto;
+width: 200px;
+margin-bottom: 10px;
+}
+
+
+
+.colx4
+{
+	margin: auto;
+}
+
+.colx4 img
+{
+	    width: 100%;
+}
+
+@media(max-width:768px) {
+       .prop{
+       	float: none;
+       	width: 100%;
+       }
+       
+
+       .prop img
+{
+
+	margin: auto;
+
+}
+
+
+}
+
+
+.tab {
+  float: left;
+  width: 30%;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 20px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+  border-radius: 30px;
+    border: 1px solid #b3a5db;
+    margin-bottom: 45px;
+
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background: #b3a5db;
+    border-radius: 30px;
+    color: white;
+
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+      background: #b3a5db;
+      color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  width: 66%;
+  border-left: none;
+  display: block;
+overflow: hidden;
+margin: auto;
+float: right;
+}
+.tabcontent img {
+  width: 100%;
+
+}
+
+@media(max-width:1180px) {
+      .tab
+      {
+      	width: 100%;
+      }
+      .tabcontent
+      {
+      	width: 100%;
+      	float: none;
+      }
+
+
+
+
+}
+
+
+.flowimg
+{
+	width: 80%;
+display: block;
+margin: auto;
+    margin-top: auto;
+margin-top: 60px;
+}
+
+.q1
+{
+	max-width: 800px;
+	margin: auto;
+}
+
+h5
+{
+	margin-bottom: 10px;
+}

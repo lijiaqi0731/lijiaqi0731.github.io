@@ -1,0 +1,108 @@
+footer
+{
+	width: 100%;
+	background: #f0f0f0;
+	top: 100vh;
+
+    position: relative;
+    overflow: hidden;
+}
+
+footer .content
+{
+	width: 80%;
+	margin: auto;
+}
+
+footer .detail
+{
+	margin: 30px;
+	display: block ruby;
+	text-align: center;
+	
+}
+
+
+
+footer .detail li
+{
+	margin: 0px;
+	padding:0px 10px;
+	border-left: 1px #9d9d9d solid;
+	text-align: center;
+	line-height: 1;
+	list-style-type:none;
+	font-size: 13px;
+
+}
+footer .detail li a
+{
+	text-align: center;
+	text-decoration: none;
+	color: #9d9d9d;
+}
+
+footer .detail li a:hover
+{
+	color: black;
+}
+
+footer .detail2
+{
+	margin: 30px;
+	display: block ruby;
+	text-align: center;
+	
+}
+
+footer .detail2 li
+{
+	margin: 0px;
+	padding:0px 10px;
+	text-align: center;
+	line-height: 1;
+	list-style-type:none;
+	font-size: 13px;
+	width: 30px;
+	height: 30px;
+
+}
+footer .detail2 li a
+{
+}
+
+footer .detail2 li a:hover
+{
+	color: black;
+}
+
+
+
+
+
+
+footer
+{
+	font-weight: 1;
+}
+
+.bottomtext
+{
+	width: 100%;
+	background: #5d6c84;
+	color: white;
+}
+
+.bottomtext p
+{
+	width: 100%;
+	padding: 20px 0px;
+	text-align: center;
+	margin: 0px;
+	font-size: 12px;
+}
+
+.img1
+{
+	background-image: url('img/icon1.png');
+}

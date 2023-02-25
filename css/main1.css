@@ -1,0 +1,310 @@
+.main
+{
+position: fixed;
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+width: 100%;
+min-height: 100vh;
+padding-bottom: 10vh;
+-webkit-box-pack: center;
+-webkit-justify-content: center;
+-ms-flex-pack: center;
+justify-content: center;
+-webkit-box-align: end;
+-webkit-align-items: flex-end;
+-ms-flex-align: end;
+align-items: center;
+border-style: none;
+border-width: 1px;
+border-color: #31385c;
+color: #31385c;
+}
+
+.content
+{
+	overflow: hidden;
+width: 100%;
+padding-right: 5vw;
+padding-left: 5vw;
+}
+
+.text
+{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+}
+
+.text p
+{
+    margin: 0px;
+}
+
+.text4
+{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	margin-top: 70px;
+}
+
+
+.d2
+{
+	background:#fdfdfd;
+width: 100%;
+height: 100%;
+padding-bottom: 100px;
+}
+
+
+
+.mainimg
+{
+	width: 100%;
+	overflow: hidden;
+    max-width: 300px;
+    margin:auto;
+    height: 300px;
+    background-size: cover;
+}
+
+.mainimg div
+{
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     background-size: cover;
+     max-width: 300px;
+     height: 300px;
+     transition: .5s;
+}
+
+#hero
+{
+     height: 300px;
+}
+
+#day
+{
+    background-image: url('img/b4.GIF');
+}
+
+#night
+{
+    background-image: url('img/b2.GIF');
+}
+
+.skill
+{
+background: white;
+position: relative;
+top: 100vh;
+padding-right: 0vw;
+padding-left: 0vw;
+-webkit-box-pack: justify;
+-webkit-justify-content: space-between;
+-ms-flex-pack: justify;
+justify-content: space-between;
+    background-image: url("img/b2.GIF");
+    background-attachment: fixed;
+    background-position: center;
+        background-position-y: center;
+        background-size: 300px;
+    background-repeat: no-repeat;
+    background-position-y: 38.5%;
+    background-position-x: center;
+}
+
+
+.intro
+{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 100px;
+	overflow: hidden;
+}
+
+
+.intro1
+{
+	margin-bottom: 50px;
+}
+
+.intro1 img
+{
+   width: 60%;
+   display: block;
+   margin:auto;
+   max-width: 160px;
+}
+.scolldown2
+{
+bottom: 15px;
+left: 50%;
+text-align: center;
+color: #C4C4C4;
+font-size: 16px;
+margin-top: 300px;
+margin-bottom: 10px;
+
+}
+
+.scolldown1
+{
+	-webkit-text-fill-color:
+    transparent;
+    -webkit-background-clip: text;
+    background-image: -webkit-linear-gradient(left,#fff,#ccc 25%,#fff 50%,#ccc 75%,#fff);
+    background-size: 200% 100%;
+    -webkit-animation: 2s mask infinite linear;
+}
+
+.scolldown
+{
+display: block;
+width: 9px;
+height: 9px;
+margin: -4px auto 0;
+border: solid
+#B9B9BA;
+    border-top-width: medium;
+    border-right-width: medium;
+    border-bottom-width: medium;
+    border-left-width: medium;
+border-width: 0 1px 1px 0;
+position: relative;
+transform: rotate(45deg);
+}
+
+
+.resume
+{
+    border-radius: 50rem !important;
+    display: inline-block;
+font-weight: 400;
+color: #212529;
+text-align: center;
+vertical-align: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-color:
+transparent;
+border: 1px solid
+transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+padding: 0.375rem 0.75rem;
+font-size: 1rem;
+line-height: 1.5;
+border-radius: 0.25rem;
+transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+padding: 8px 24px;
+color:
+#a0d1e1;
+border-color:
+    #a0d1e1;
+}
+.buttonc
+{
+	overflow: hidden;
+
+width: 133px;
+
+margin: auto;
+
+padding-top: 80px;
+
+}
+
+.resume:hover
+{
+   background: #a0d1e1;
+   color: white;
+}
+
+p
+{
+    font-weight: 1;
+}
+
+
+.x1 {
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-name: scorll;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  /* Standard syntax */
+  animation-name: scorll;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.x2 {
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-name: scorll;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  /* Standard syntax */
+  animation-name: scorll;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.x3 {
+
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-name: scorll;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  /* Standard syntax */
+  animation-name: scorll;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes scorll {
+  0%   {opacity: 1; }
+  25%  {opacity: 0.75;}
+  50%  {opacity: 0.5;}
+  75%  {opacity: 0.25;}
+  100% {opacity: 0.1;}
+}
+
+/* Standard syntax */
+@keyframes scorll {
+  0%   {opacity: 1; }
+  25%  {opacity: 0.75;}
+  50%  {opacity: 0.5;}
+  75%  {opacity: 0.25;}
+  100% {opacity: 0.1;}
+}
